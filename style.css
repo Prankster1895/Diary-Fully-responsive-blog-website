@@ -2,11 +2,10 @@
     margin: 0;
     padding: 0;
 }
-@media screen and (max-width: 768px) {
 
 .navigation {
     font-family: var(--font1);
-    height: 15vh;
+    height: 80pX;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -14,7 +13,7 @@
 }
 
 .nav-left {
-    padding-left: 1vw;
+    padding-left: 15px;
     font-size: 15px;
     display: flex;
 }
@@ -26,16 +25,16 @@
 .nav-left ul {
     display: flex;
     align-items: center;
-    margin: 0 4vw;
+    margin: 0 60px;
 }
 
 .nav-right {
-    padding-right: 1vw;
+    padding-right: 15px;
 }
 
 .nav-left ul li {
     list-style: none;
-    margin: 0 1vw;
+    margin: 0 14px;
     font-family: var(--font2);
     align-items: center;
 }
@@ -57,14 +56,14 @@
 
 .content-left h1 {
     font-size: 35px;
-    padding: 2vw;
+    padding: 25px;
     display: flex;
 
 }
 
 .content-left p {
     font-size: 25px;
-    padding: 1.5vw;
+    padding: 20px;
 
 }
 
@@ -74,8 +73,8 @@
 }
 
 .content-right img {
-    height: 16vw;
-    width: 16vw;
+    height: 250pX;
+    width: 250px;
     border: 2px solid black;
     border-radius: 1200px;
     opacity: 1;
@@ -83,7 +82,7 @@
 }
 
 .contents {
-    height: 23vw;
+    height: 350pX;
     display: flex;
     /* background-color: black;*/
      background : url("Background.jpg") repeat 0 0;
@@ -104,19 +103,19 @@
 
 .homeArticles {
    background-color: rgb(246, 202, 128);
-    padding-top: 0.5vw;
-    padding-left:0.5vw;
-    margin-top: 1.5vw;
+    padding-top: 12px;
+    padding-left:12px;
+    margin-top: 20px;
 
 }
 .homeArticles ul{
     list-style:none;
-    padding-left:0.5vw;
+    padding-left:10px;
 }
 
 .Homearticle {
     display: flex;
-    padding:1.5vw;
+    padding:20px;
 }
 
 .Homearticle img {
@@ -127,9 +126,8 @@
 
 }
 .homeArticlecontent{
-    padding-top: 0.5vw;
-    padding-left:1.5vw;
+    padding-top: 10px;
+    padding-left:20px;
     align-self: center;
     font-size:15px;
-}
 }
