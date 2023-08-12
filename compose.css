@@ -3,7 +3,7 @@
     height: 1200px;
     display: block;
     /* background-color: black;*/
-    background: url("Background.jpg") repeat 0 0;
+    background : url("Background.jpg") repeat 0 0;
     margin-bottom: 20px;
     margin-top: 20px;
 }
