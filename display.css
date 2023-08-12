@@ -1,0 +1,31 @@
+.post_img img{
+    width:100%;
+    opacity:0.6;
+}
+.post_img{
+    margin-top: 15px;
+    overflow: hidden;
+    height:600px;
+    background-image: url("Background.jpg");
+    opacity:1;
+}
+
+
+#displayDate{
+    margin-top: 500px;
+    margin-left: 920px;
+    font-style: italic;
+
+}
+
+#displayTitle{
+    margin-left: 450px;
+    margin-bottom: 20px;
+    font-style: italic;
+}
+
+#displayBlog{
+    margin-left:40px;
+    font-style: italic;
+
+}
