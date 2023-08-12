@@ -1,0 +1,137 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.navigation {
+    font-family: var(--font1);
+    height: 15vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.nav-left {
+    padding-left: 1vw;
+    font-size: 15px;
+    display: flex;
+}
+.nav-left span{
+    font-size:30px;
+    font-style:var(--font2)
+}
+
+.nav-left ul {
+    display: flex;
+    align-items: center;
+    margin: 0 4vw;
+}
+
+.nav-right {
+    padding-right: 1vw;
+}
+
+.nav-left ul li {
+    list-style: none;
+    margin: 0 1vw;
+    font-family: var(--font2);
+    align-items: center;
+}
+
+.nav-left ul li a:hover {
+    color: brown;
+}
+
+.nav-left ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+.content-left {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.content-left h1 {
+    font-size: 35px;
+    padding: 2vw;
+    display: flex;
+
+}
+
+.content-left p {
+    font-size: 25px;
+    padding: 1.5vw;
+    margin-top:15px;
+
+}
+
+.content-right {
+    display: flex;
+    align-items: center;
+}
+
+.content-right img {
+    height: 16vw;
+    width: 16vw;
+    border: 2px solid black;
+    border-radius: 1200px;
+    opacity: 1;
+    margin-right:1vw;
+
+}
+
+.contents {
+    height: 35vw;
+    display: flex;
+    /* background-color: black;*/
+     background : url("Background.jpg") repeat 0 0;
+     margin-bottom: 20px;
+     margin-top:20px;
+}
+
+
+
+/*.contents img{
+    height:95px;
+    width:80vw;
+}*/
+
+/*.footer {
+    height: 55pX;
+     background-color: blue;
+
+}*/
+
+.homeArticles {
+   background-color: rgb(246, 202, 128);
+    padding-top: 0.5vw;
+    padding-left:0.5vw;
+    margin-top: 1.5vw;
+
+}
+.homeArticles ul{
+    list-style:none;
+    padding-left:0.5vw;
+}
+
+.Homearticle {
+    display: flex;
+    padding:1.5vw;
+}
+
+.Homearticle img {
+    height: 150px;
+    width: 150px;
+    border:1px solid black;
+    border-radius:20px;
+
+}
+.homeArticlecontent{
+    padding-top: 0.5vw;
+    padding-left:1.5vw;
+    align-self: center;
+    font-size:15px;
+}
