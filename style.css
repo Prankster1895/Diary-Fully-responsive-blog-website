@@ -5,7 +5,7 @@
 
 .navigation {
     font-family: var(--font1);
-    height: 80pX;
+    height: 15vh;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -13,7 +13,7 @@
 }
 
 .nav-left {
-    padding-left: 15px;
+    padding-left: 1vw;
     font-size: 15px;
     display: flex;
 }
@@ -25,16 +25,16 @@
 .nav-left ul {
     display: flex;
     align-items: center;
-    margin: 0 60px;
+    margin: 0 4vw;
 }
 
 .nav-right {
-    padding-right: 15px;
+    padding-right: 1vw;
 }
 
 .nav-left ul li {
     list-style: none;
-    margin: 0 14px;
+    margin: 0 1vw;
     font-family: var(--font2);
     align-items: center;
 }
@@ -56,14 +56,14 @@
 
 .content-left h1 {
     font-size: 35px;
-    padding: 25px;
+    padding: 2vw;
     display: flex;
 
 }
 
 .content-left p {
     font-size: 25px;
-    padding: 20px;
+    padding: 1.5vw;
 
 }
 
@@ -73,8 +73,8 @@
 }
 
 .content-right img {
-    height: 250pX;
-    width: 250px;
+    height: 16vw;
+    width: 16vw;
     border: 2px solid black;
     border-radius: 1200px;
     opacity: 1;
@@ -82,7 +82,7 @@
 }
 
 .contents {
-    height: 350pX;
+    height: 23vw;
     display: flex;
     /* background-color: black;*/
      background : url("Background.jpg") repeat 0 0;
@@ -103,19 +103,19 @@
 
 .homeArticles {
    background-color: rgb(246, 202, 128);
-    padding-top: 12px;
-    padding-left:12px;
-    margin-top: 20px;
+    padding-top: 0.5vw;
+    padding-left:0.5vw;
+    margin-top: 1.5vw;
 
 }
 .homeArticles ul{
     list-style:none;
-    padding-left:10px;
+    padding-left:0.5vw;
 }
 
 .Homearticle {
     display: flex;
-    padding:20px;
+    padding:1.5vw;
 }
 
 .Homearticle img {
@@ -126,8 +126,8 @@
 
 }
 .homeArticlecontent{
-    padding-top: 10px;
-    padding-left:20px;
+    padding-top: 0.5vw;
+    padding-left:1.5vw;
     align-self: center;
     font-size:15px;
 }
