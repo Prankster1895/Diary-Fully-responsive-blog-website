@@ -6,7 +6,7 @@
     margin-top: 15px;
     overflow: hidden;
     height:600px;
-    background-image: url(../Background.jpg);
+    background-image: url("Background.jpg");
     opacity:1;
 }
 .post_img p{
